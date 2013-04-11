@@ -23,6 +23,10 @@
 		EE8752A21716C07A004A4995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527D1716C079004A4995 /* Foundation.framework */; };
 		EE8752AA1716C07A004A4995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE8752A81716C07A004A4995 /* InfoPlist.strings */; };
 		EE8752AD1716C07A004A4995 /* WithGCDTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8752AC1716C07A004A4995 /* WithGCDTwitterTests.m */; };
+		EE8752B81716C296004A4995 /* TwitterWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8752B71716C296004A4995 /* TwitterWrapper.m */; };
+		EE8752BA1716C451004A4995 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8752B91716C451004A4995 /* Accounts.framework */; };
+		EE8752BC1716C459004A4995 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8752BB1716C459004A4995 /* Social.framework */; };
+		EE8752BE1716CBF2004A4995 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8752BD1716CBF2004A4995 /* dummy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,11 @@
 		EE8752A91716C07A004A4995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE8752AB1716C07A004A4995 /* WithGCDTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithGCDTwitterTests.h; sourceTree = "<group>"; };
 		EE8752AC1716C07A004A4995 /* WithGCDTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithGCDTwitterTests.m; sourceTree = "<group>"; };
+		EE8752B61716C296004A4995 /* TwitterWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterWrapper.h; sourceTree = "<group>"; };
+		EE8752B71716C296004A4995 /* TwitterWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterWrapper.m; sourceTree = "<group>"; };
+		EE8752B91716C451004A4995 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EE8752BB1716C459004A4995 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EE8752BD1716CBF2004A4995 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8752BC1716C459004A4995 /* Social.framework in Frameworks */,
+				EE8752BA1716C451004A4995 /* Accounts.framework in Frameworks */,
 				EE87527C1716C079004A4995 /* UIKit.framework in Frameworks */,
 				EE87527E1716C079004A4995 /* Foundation.framework in Frameworks */,
 				EE8752801716C079004A4995 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +117,8 @@
 		EE87527A1716C079004A4995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE8752BB1716C459004A4995 /* Social.framework */,
+				EE8752B91716C451004A4995 /* Accounts.framework */,
 				EE87527B1716C079004A4995 /* UIKit.framework */,
 				EE87527D1716C079004A4995 /* Foundation.framework */,
 				EE87527F1716C079004A4995 /* CoreGraphics.framework */,
@@ -117,6 +130,8 @@
 		EE8752811716C079004A4995 /* WithGCDTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				EE8752B61716C296004A4995 /* TwitterWrapper.h */,
+				EE8752B71716C296004A4995 /* TwitterWrapper.m */,
 				EE87528A1716C079004A4995 /* AppDelegate.h */,
 				EE87528B1716C079004A4995 /* AppDelegate.m */,
 				EE8752931716C079004A4995 /* MainStoryboard.storyboard */,
@@ -130,6 +145,7 @@
 		EE8752821716C079004A4995 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE8752BD1716CBF2004A4995 /* dummy.png */,
 				EE8752831716C079004A4995 /* WithGCDTwitter-Info.plist */,
 				EE8752841716C079004A4995 /* InfoPlist.strings */,
 				EE8752871716C079004A4995 /* main.m */,
@@ -236,6 +252,7 @@
 				EE8752901716C079004A4995 /* Default@2x.png in Resources */,
 				EE8752921716C079004A4995 /* Default-568h@2x.png in Resources */,
 				EE8752951716C07A004A4995 /* MainStoryboard.storyboard in Resources */,
+				EE8752BE1716CBF2004A4995 /* dummy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				EE8752881716C079004A4995 /* main.m in Sources */,
 				EE87528C1716C079004A4995 /* AppDelegate.m in Sources */,
 				EE8752981716C07A004A4995 /* ViewController.m in Sources */,
+				EE8752B81716C296004A4995 /* TwitterWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

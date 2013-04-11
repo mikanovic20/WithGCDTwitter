@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE87527C1716C079004A4995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527B1716C079004A4995 /* UIKit.framework */; };
+		EE87527E1716C079004A4995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527D1716C079004A4995 /* Foundation.framework */; };
+		EE8752801716C079004A4995 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527F1716C079004A4995 /* CoreGraphics.framework */; };
+		EE8752861716C079004A4995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE8752841716C079004A4995 /* InfoPlist.strings */; };
+		EE8752881716C079004A4995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8752871716C079004A4995 /* main.m */; };
+		EE87528C1716C079004A4995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87528B1716C079004A4995 /* AppDelegate.m */; };
+		EE87528E1716C079004A4995 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE87528D1716C079004A4995 /* Default.png */; };
+		EE8752901716C079004A4995 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE87528F1716C079004A4995 /* Default@2x.png */; };
+		EE8752921716C079004A4995 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8752911716C079004A4995 /* Default-568h@2x.png */; };
+		EE8752951716C07A004A4995 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8752931716C079004A4995 /* MainStoryboard.storyboard */; };
+		EE8752981716C07A004A4995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8752971716C07A004A4995 /* ViewController.m */; };
+		EE8752A01716C07A004A4995 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87529F1716C07A004A4995 /* SenTestingKit.framework */; };
+		EE8752A11716C07A004A4995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527B1716C079004A4995 /* UIKit.framework */; };
+		EE8752A21716C07A004A4995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87527D1716C079004A4995 /* Foundation.framework */; };
+		EE8752AA1716C07A004A4995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE8752A81716C07A004A4995 /* InfoPlist.strings */; };
+		EE8752AD1716C07A004A4995 /* WithGCDTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8752AC1716C07A004A4995 /* WithGCDTwitterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8752A31716C07A004A4995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8752701716C079004A4995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8752771716C079004A4995;
+			remoteInfo = WithGCDTwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8752781716C079004A4995 /* WithGCDTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WithGCDTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87527B1716C079004A4995 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE87527D1716C079004A4995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE87527F1716C079004A4995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE8752831716C079004A4995 /* WithGCDTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WithGCDTwitter-Info.plist"; sourceTree = "<group>"; };
+		EE8752851716C079004A4995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE8752871716C079004A4995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE8752891716C079004A4995 /* WithGCDTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WithGCDTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		EE87528A1716C079004A4995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE87528B1716C079004A4995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE87528D1716C079004A4995 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EE87528F1716C079004A4995 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EE8752911716C079004A4995 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EE8752941716C07A004A4995 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EE8752961716C07A004A4995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE8752971716C07A004A4995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE87529E1716C07A004A4995 /* WithGCDTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WithGCDTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87529F1716C07A004A4995 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE8752A71716C07A004A4995 /* WithGCDTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WithGCDTwitterTests-Info.plist"; sourceTree = "<group>"; };
+		EE8752A91716C07A004A4995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE8752AB1716C07A004A4995 /* WithGCDTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithGCDTwitterTests.h; sourceTree = "<group>"; };
+		EE8752AC1716C07A004A4995 /* WithGCDTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithGCDTwitterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8752751716C079004A4995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87527C1716C079004A4995 /* UIKit.framework in Frameworks */,
+				EE87527E1716C079004A4995 /* Foundation.framework in Frameworks */,
+				EE8752801716C079004A4995 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87529A1716C07A004A4995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8752A01716C07A004A4995 /* SenTestingKit.framework in Frameworks */,
+				EE8752A11716C07A004A4995 /* UIKit.framework in Frameworks */,
+				EE8752A21716C07A004A4995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE87526F1716C079004A4995 = {
+			isa = PBXGroup;
+			children = (
+				EE8752811716C079004A4995 /* WithGCDTwitter */,
+				EE8752A51716C07A004A4995 /* WithGCDTwitterTests */,
+				EE87527A1716C079004A4995 /* Frameworks */,
+				EE8752791716C079004A4995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8752791716C079004A4995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8752781716C079004A4995 /* WithGCDTwitter.app */,
+				EE87529E1716C07A004A4995 /* WithGCDTwitterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE87527A1716C079004A4995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE87527B1716C079004A4995 /* UIKit.framework */,
+				EE87527D1716C079004A4995 /* Foundation.framework */,
+				EE87527F1716C079004A4995 /* CoreGraphics.framework */,
+				EE87529F1716C07A004A4995 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8752811716C079004A4995 /* WithGCDTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				EE87528A1716C079004A4995 /* AppDelegate.h */,
+				EE87528B1716C079004A4995 /* AppDelegate.m */,
+				EE8752931716C079004A4995 /* MainStoryboard.storyboard */,
+				EE8752961716C07A004A4995 /* ViewController.h */,
+				EE8752971716C07A004A4995 /* ViewController.m */,
+				EE8752821716C079004A4995 /* Supporting Files */,
+			);
+			path = WithGCDTwitter;
+			sourceTree = "<group>";
+		};
+		EE8752821716C079004A4995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8752831716C079004A4995 /* WithGCDTwitter-Info.plist */,
+				EE8752841716C079004A4995 /* InfoPlist.strings */,
+				EE8752871716C079004A4995 /* main.m */,
+				EE8752891716C079004A4995 /* WithGCDTwitter-Prefix.pch */,
+				EE87528D1716C079004A4995 /* Default.png */,
+				EE87528F1716C079004A4995 /* Default@2x.png */,
+				EE8752911716C079004A4995 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8752A51716C07A004A4995 /* WithGCDTwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8752AB1716C07A004A4995 /* WithGCDTwitterTests.h */,
+				EE8752AC1716C07A004A4995 /* WithGCDTwitterTests.m */,
+				EE8752A61716C07A004A4995 /* Supporting Files */,
+			);
+			path = WithGCDTwitterTests;
+			sourceTree = "<group>";
+		};
+		EE8752A61716C07A004A4995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8752A71716C07A004A4995 /* WithGCDTwitterTests-Info.plist */,
+				EE8752A81716C07A004A4995 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8752771716C079004A4995 /* WithGCDTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8752B01716C07A004A4995 /* Build configuration list for PBXNativeTarget "WithGCDTwitter" */;
+			buildPhases = (
+				EE8752741716C079004A4995 /* Sources */,
+				EE8752751716C079004A4995 /* Frameworks */,
+				EE8752761716C079004A4995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WithGCDTwitter;
+			productName = WithGCDTwitter;
+			productReference = EE8752781716C079004A4995 /* WithGCDTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE87529D1716C07A004A4995 /* WithGCDTwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8752B31716C07A004A4995 /* Build configuration list for PBXNativeTarget "WithGCDTwitterTests" */;
+			buildPhases = (
+				EE8752991716C07A004A4995 /* Sources */,
+				EE87529A1716C07A004A4995 /* Frameworks */,
+				EE87529B1716C07A004A4995 /* Resources */,
+				EE87529C1716C07A004A4995 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8752A41716C07A004A4995 /* PBXTargetDependency */,
+			);
+			name = WithGCDTwitterTests;
+			productName = WithGCDTwitterTests;
+			productReference = EE87529E1716C07A004A4995 /* WithGCDTwitterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8752701716C079004A4995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mikanovic20;
+			};
+			buildConfigurationList = EE8752731716C079004A4995 /* Build configuration list for PBXProject "WithGCDTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE87526F1716C079004A4995;
+			productRefGroup = EE8752791716C079004A4995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8752771716C079004A4995 /* WithGCDTwitter */,
+				EE87529D1716C07A004A4995 /* WithGCDTwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8752761716C079004A4995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8752861716C079004A4995 /* InfoPlist.strings in Resources */,
+				EE87528E1716C079004A4995 /* Default.png in Resources */,
+				EE8752901716C079004A4995 /* Default@2x.png in Resources */,
+				EE8752921716C079004A4995 /* Default-568h@2x.png in Resources */,
+				EE8752951716C07A004A4995 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE87529B1716C07A004A4995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8752AA1716C07A004A4995 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE87529C1716C07A004A4995 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8752741716C079004A4995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8752881716C079004A4995 /* main.m in Sources */,
+				EE87528C1716C079004A4995 /* AppDelegate.m in Sources */,
+				EE8752981716C07A004A4995 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8752991716C07A004A4995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8752AD1716C07A004A4995 /* WithGCDTwitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8752A41716C07A004A4995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8752771716C079004A4995 /* WithGCDTwitter */;
+			targetProxy = EE8752A31716C07A004A4995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8752841716C079004A4995 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8752851716C079004A4995 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE8752931716C079004A4995 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8752941716C07A004A4995 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8752A81716C07A004A4995 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8752A91716C07A004A4995 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8752AE1716C07A004A4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE8752AF1716C07A004A4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8752B11716C07A004A4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGCDTwitter/WithGCDTwitter-Prefix.pch";
+				INFOPLIST_FILE = "WithGCDTwitter/WithGCDTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE8752B21716C07A004A4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGCDTwitter/WithGCDTwitter-Prefix.pch";
+				INFOPLIST_FILE = "WithGCDTwitter/WithGCDTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE8752B41716C07A004A4995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WithGCDTwitter.app/WithGCDTwitter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGCDTwitter/WithGCDTwitter-Prefix.pch";
+				INFOPLIST_FILE = "WithGCDTwitterTests/WithGCDTwitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE8752B51716C07A004A4995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WithGCDTwitter.app/WithGCDTwitter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WithGCDTwitter/WithGCDTwitter-Prefix.pch";
+				INFOPLIST_FILE = "WithGCDTwitterTests/WithGCDTwitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8752731716C079004A4995 /* Build configuration list for PBXProject "WithGCDTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8752AE1716C07A004A4995 /* Debug */,
+				EE8752AF1716C07A004A4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8752B01716C07A004A4995 /* Build configuration list for PBXNativeTarget "WithGCDTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8752B11716C07A004A4995 /* Debug */,
+				EE8752B21716C07A004A4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE8752B31716C07A004A4995 /* Build configuration list for PBXNativeTarget "WithGCDTwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8752B41716C07A004A4995 /* Debug */,
+				EE8752B51716C07A004A4995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8752701716C079004A4995 /* Project object */;
+}
